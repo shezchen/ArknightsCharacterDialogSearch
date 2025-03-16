@@ -1,11 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
 namespace ReadArkData;
-
-//text:
-//D:\c_sharp_repo\ArknightsGameData\zh_CN\gamedata\story
-//凯尔希
-
 class Program
 {
     enum State
@@ -22,7 +17,7 @@ class Program
         
         if(storyFolderPath == "")
         {
-            Console.WriteLine("Error: Please enter the path to the \"story\" folder.");
+            Console.WriteLine("Error: Please enter the path to the \"story\" folder in storyFolderPath.txt.");
             return;
         }
         else
@@ -32,7 +27,7 @@ class Program
             Console.WriteLine($"Obt path: {obtPath}");
         }
         
-        Console.WriteLine("Enter the name of your output txt (without .txt):");
+        Console.WriteLine("Enter the name of your output txt (without back name    .txt):");
         string TXTname = Console.ReadLine() ?? "output";
         
         Console.WriteLine("Need simplified output? (only dialogs, not recommended.) (y/n)");
@@ -43,7 +38,7 @@ class Program
         }
         
         // 输出文件路径
-        string outputFilePath = Path.Combine(Environment.CurrentDirectory,TXTname+".txt");
+        string outputFilePath = Path.Combine(Environment.CurrentDirectory,"Output",TXTname+".txt");
         
         using (StreamWriter writer = new StreamWriter(outputFilePath))
         {

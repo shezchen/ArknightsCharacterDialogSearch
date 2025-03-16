@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReadArkData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+553354675f99f4774a9a4b68a7030d284802e057")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a31f270984b3881f69e86200c5f7bd3ec68a46bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReadArkData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReadArkData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
