@@ -1,0 +1,14 @@
+D:\MyProjects\ReadArkData\bin\Debug\net9.0\ReadArkData.exe
+D:\MyProjects\ReadArkData\bin\Debug\net9.0\ReadArkData.deps.json
+D:\MyProjects\ReadArkData\bin\Debug\net9.0\ReadArkData.runtimeconfig.json
+D:\MyProjects\ReadArkData\bin\Debug\net9.0\ReadArkData.dll
+D:\MyProjects\ReadArkData\bin\Debug\net9.0\ReadArkData.pdb
+D:\MyProjects\ReadArkData\obj\Debug\net9.0\ReadArkData.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\ReadArkData\obj\Debug\net9.0\ReadArkData.AssemblyInfoInputs.cache
+D:\MyProjects\ReadArkData\obj\Debug\net9.0\ReadArkData.AssemblyInfo.cs
+D:\MyProjects\ReadArkData\obj\Debug\net9.0\ReadArkData.csproj.CoreCompileInputs.cache
+D:\MyProjects\ReadArkData\obj\Debug\net9.0\ReadArkData.dll
+D:\MyProjects\ReadArkData\obj\Debug\net9.0\refint\ReadArkData.dll
+D:\MyProjects\ReadArkData\obj\Debug\net9.0\ReadArkData.pdb
+D:\MyProjects\ReadArkData\obj\Debug\net9.0\ReadArkData.genruntimeconfig.cache
+D:\MyProjects\ReadArkData\obj\Debug\net9.0\ref\ReadArkData.dll
