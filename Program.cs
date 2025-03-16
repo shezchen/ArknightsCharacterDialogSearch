@@ -16,25 +16,26 @@ class Program
     static void Main(string[] args)
     {
         State state = State.df;
-        string activitiesPath = "";
-        string obtPath = "";
-        Console.WriteLine("Example : D:\\ArknightsGameData\\zh_CN\\gamedata\\story" );
-        Console.WriteLine("Enter the path to the \"story\" folder:");
-        activitiesPath = Console.ReadLine() ?? "";
-        if(activitiesPath == "")
+        string storyFolderPath = File.ReadLines($@"{Path.Combine(Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent.FullName,"storyFolderPath.txt")}").First();
+        string activitiesPath = Path.Combine(storyFolderPath , "activities");   
+        string obtPath = Path.Combine(storyFolderPath , "obt");
+        
+        if(storyFolderPath == "")
         {
             Console.WriteLine("Error: Please enter the path to the \"story\" folder.");
             return;
         }
+        else
+        {
+            Console.WriteLine($"Target path: {storyFolderPath}");
+            Console.WriteLine($"Activities path: {activitiesPath}");
+            Console.WriteLine($"Obt path: {obtPath}");
+        }
         
-        
-        obtPath = Path.Combine(activitiesPath , "obt");
-        activitiesPath = Path.Combine(activitiesPath , "activities");        
-        
-        Console.WriteLine("Enter the name of out put txt:");
+        Console.WriteLine("Enter the name of your output txt (without .txt):");
         string TXTname = Console.ReadLine() ?? "output";
         
-        Console.WriteLine("Need Simplified output? (y/n)");
+        Console.WriteLine("Need simplified output? (only dialogs, not recommended.) (y/n)");
         string needSimplifed = Console.ReadLine() ?? "n";
         if(needSimplifed == "y" || needSimplifed  == "Y")
         {
@@ -46,7 +47,7 @@ class Program
         
         using (StreamWriter writer = new StreamWriter(outputFilePath))
         {
-            Console.WriteLine($"文件创建成功，位置在: {outputFilePath}");
+            Console.WriteLine($"Output file path: {outputFilePath}");
             
             List<string> targetFiles = new List<string>();
             
@@ -57,7 +58,7 @@ class Program
             
             Console.WriteLine($"Total number of found target files: {targetFiles.Count}");
 
-            Console.WriteLine("Searching character name:");
+            Console.WriteLine("Searching character name(Use Simplified Chinese):");
             //[name="可露希尔"]
             string targetCharacterName = $"[name=\"{Console.ReadLine() ?? "阿米娅"}\"]";
             string characterNamePattern = @"\[name=""[^""]*""\]\s*(.*)";

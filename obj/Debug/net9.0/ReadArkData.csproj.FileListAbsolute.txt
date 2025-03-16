@@ -12,3 +12,4 @@ D:\MyProjects\ReadArkData\obj\Debug\net9.0\refint\ReadArkData.dll
 D:\MyProjects\ReadArkData\obj\Debug\net9.0\ReadArkData.pdb
 D:\MyProjects\ReadArkData\obj\Debug\net9.0\ReadArkData.genruntimeconfig.cache
 D:\MyProjects\ReadArkData\obj\Debug\net9.0\ref\ReadArkData.dll
+D:\MyProjects\ReadArkData\obj\Debug\net9.0\ReadArkData.sourcelink.json
