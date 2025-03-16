@@ -24,13 +24,13 @@ Target path: D:\c_sharp_repo\ArknightsGameData\zh_CN\gamedata\story
 Activities path: D:\c_sharp_repo\ArknightsGameData\zh_CN\gamedata\story\activities
 Obt path: D:\c_sharp_repo\ArknightsGameData\zh_CN\gamedata\story\obt
 Enter the name of your output txt (without back name    .txt):
-Kal'tsit
+>Kal'tsit
 Need simplified output? (only dialogs, not recommended.) (y/n)
-n
+>n
 Output file path: D:\MyProjects\ReadArkData\bin\Debug\net9.0\Output\Kal'tsit.txt
 Total number of found target files: 2855
 Searching character name(Use Simplified Chinese):
-凯尔希
+>凯尔希
 Done! The output file is saved at: D:\MyProjects\ReadArkData\bin\Debug\net9.0\Output\Kal'tsit.txt
 ```
 生成的数据(仅截取一部分)
